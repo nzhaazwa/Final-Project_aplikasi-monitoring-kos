@@ -1,0 +1,115 @@
+/* Mengatur tampilan dasar seluruh widget aplikasi */
+QWidget {
+    background: #f8fafc;    /* Warna latar belakang utama (abu terang) */
+    font-family: "Segoe UI";  /* Font */
+    font-size: 13px;          /* Ukuran font */
+    color: #0f172a;         /* Warna teks utama */
+}
+
+/* --- TITLE --- */
+/* Digunakan untuk judul setiap tab */
+QLabel#title {
+    font-size: 22px;    /* Ukuran besar agar menonjol */
+    font-weight: bold;  /* Teks tebal */
+    color: #2563eb;  /* Biru sebagai warna utama aplikasi */
+    margin: 10px 0;   /* Jarak atas & bawah */
+}
+
+/* --- INPUT --- */
+/* Styling field input: teks, combo box, dan date picker */
+QLineEdit, QComboBox, QDateEdit {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus {
+    border: 1px solid #2563eb;
+}
+
+/* --- BUTTON --- */
+QPushButton {
+    border-radius: 14px;
+    padding: 6px 18px;
+    font-weight: 500;
+}
+
+QPushButton#add {
+    background: #2563eb;
+    color: white;
+}
+
+QPushButton#update {
+    background: #facc15;
+    color: #1f2937;
+}
+
+QPushButton#delete {
+    background: #ef4444;
+    color: white;
+}
+
+/* ===== TAB ===== */
+QTabBar::tab {
+    background: #e5e7eb;
+    padding: 8px 20px;
+    border-radius: 14px;
+    margin-right: 6px;
+}
+
+QTabBar::tab:selected {
+    background: #2563eb;
+    color: white;
+}
+
+/* ===== TABLE ===== */
+QTableWidget {
+    background: white;
+    border: 1px solid #e5e7eb;
+    gridline-color: #e5e7eb;
+}
+
+QHeaderView::section {
+    background: #e8f0ff;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+
+QTableWidget::item {
+    padding: 6px;
+}
+
+QTableWidget::item:selected {
+    background: #dbeafe;
+}
+/* --- QMessageBox --- */
+QMessageBox {
+    background: #ffffff;
+}
+
+QMessageBox QLabel {
+    color: #0f172a;
+    font-size: 13px;
+}
+
+/* Tombol OK / Yes / No */
+/* Styling popup pesan */
+QMessageBox QPushButton {
+    background: #2563eb;  
+    color: white;
+    border-radius: 10px;
+    padding: 6px 20px;
+    min-width: 70px;
+}
+
+/* Efek hover */
+QMessageBox QPushButton:hover {
+    background: #1d4ed8;
+}
+
+/* Efek ditekan */
+QMessageBox QPushButton:pressed {
+    background: #1e40af;
+}
