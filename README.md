@@ -33,7 +33,7 @@ Setiap tab memiliki form input, tombol aksi, dan tabel data untuk memudahkan pen
   2) Isi Nomor Kamar dan Lantai.
   3) Pilih Status Kamar (Kosong / Terisi).
   4) Klik tombol Tambah untuk menyimpan data kamar.
-  5) 5) Untuk memperbarui status, pilih data pada tabel lalu klik Perbarui Status.
+  5) Untuk memperbarui status, pilih data pada tabel lalu klik Perbarui Status.
   6) Untuk menghapus data kamar, pilih data lalu klik Hapus.
   7) Gunakan fitur filter untuk menampilkan kamar Kosong atau Terisi.
      
