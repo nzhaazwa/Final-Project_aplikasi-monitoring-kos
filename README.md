@@ -1,4 +1,6 @@
-# MANUAL PENGGUNA APLIKASI MONITORING OPERASIONAL KOS BERBASIS DESKTOP
+**MANUAL PENGGUNA 
+APLIKASI MONITORING OPERASIONAL KOS BERBASIS DESKTOP**
+
 **1. PENDAHULUAN**
 Manual pengguna ini dibuat untuk membantu pengguna memahami cara menggunakan aplikasi Monitoring Operasional Kos. Panduan ini menjelaskan langkah-langkah dasar untuk menjalankan aplikasi dan menggunakan fitur-fitur yang tersedia, sehingga aplikasi dapat digunakan dengan mudah tanpa memerlukan pengetahuan teknis khusus.
 
